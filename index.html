@@ -1,0 +1,653 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Versioning - Initiation à l'utilisation de Git - Adrien Kühn - IIM 2015</title>
+
+		<meta name="description" content="Initiation à l'utilisation de Git">
+		<meta name="author" content="Adrien Kühn">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<style type="text/css">
+			.reveal pre{
+				box-shadow: none
+			}
+			.reveal p b,
+			.reveal ul li b{
+				color:#e7ad52
+			}
+			.reveal section img{
+				background: none;
+				box-shadow: none;
+				border: none;
+			}
+		</style>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Versioning</h1>
+					<h3>Initiation à l'utilisation de Git</h3>
+					<img src="img/git_logo.png">
+					<p>
+						<small><a href="https://adrienkuhn.com">Adrien Kühn</a> / <a href="https://twitter.com/krewh">@krewh</a> / IIM 2015</small>
+					</p>
+				</section>
+
+				<!-- Introduction -->
+				<section>
+					<h2>Introduction</h2>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Problème concret</h3>
+					<blockquote class="fragment current-visible">
+						"Ne touche pas au fichier UserController.php, je suis en train de travailler dessus!"
+					</blockquote>	
+					<blockquote class="fragment current-visible">
+						"Tu te souviens comment on avait fait pour résoudre ce bug sur l'autre projet?"
+					</blockquote>
+					<blockquote class="fragment current-visible">
+						"Qui a modifié ce fichier? Il ne fonctionne plus!"
+					</blockquote>
+				</section>
+
+				<section style="text-align:left">
+					<p>Les <b>logiciels de gestion de version</b> sont là pour palier à ces problèmes !</p>
+					<ul>
+						<li class="fragment" data-fragment-index="0">
+							Subversion (SVN)
+						</li>
+						<li class="fragment" data-fragment-index="1">
+							Mercurial
+						</li>
+						<li class="fragment" data-fragment-index="2">
+							Git
+						</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Subversion</h3>
+					<ul>
+						<li class="fragment" data-fragment-index="0">
+							Développé par CollabNet, puis repris en 2010 par la fondation Apache
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="1">
+							Conçu pour remplacer CVS
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="2">
+							Licence libre
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="3">
+							Centralisé
+						</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Commande</h4>
+					<pre>
+						<code class="shell" data-trim>$ svn</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Mercurial</h3>
+					<ul>
+						<li class="fragment" data-fragment-index="0">
+							Créé et développé principalement par Matt Mackall.
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="1">
+							Mis à disposition du public en 2005.
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="2">
+							Licence libre
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="3">
+							Décentralisé
+						</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Commande</h4>
+					<pre>
+						<code class="shell" data-trim>$ hg</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Git</h3>
+					<ul>
+						<li class="fragment" data-fragment-index="0">
+							Créé en 2005 par Linus Torvalds.
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="1">
+							Licence libre
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="2">
+							Décentralisé
+						</li>
+						<br/>
+						<li class="fragment" data-fragment-index="3">
+							Utilisé pour le Kernel de Linux, Debian, VLC, Android, Gnome, Qt…
+						</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Commande</h4>
+					<pre>
+						<code class="shell" data-trim>$ git</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Super! Mais à quoi ça sert?</h3>
+					<p class="fragment" data-fragment-index="0">Git suit <b>l'évolution du contenu</b> des fichiers de vos projets.</p>
+					<p class="fragment" data-fragment-index="1">Il garde également toutes les <b>anciennes versions</b>.</p>
+				</section>
+
+				<section style="text-align:left">
+					<p>C'est comme une backup, et Git est capable :</p>
+					<ul>
+						<li class="fragment current-visible">
+							de dire <b>qui</b> a modifié une ligne,
+						</li>
+						<li class="fragment current-visible">
+							de dire <b>pourquoi</b> elle a été modifiée,
+						</li>
+						<li class="fragment current-visible">
+							si plusieurs personnes ont édité le même fichier, Git <b>fusionne</b> les différentes versions <b>sans tout casser</b>!
+						</li>
+					</ul>
+				</section>
+
+				<section data-background="http://i.giphy.com/90F8aUepslB84.gif"></section>
+
+				<section style="text-align:left">
+					<h3>En résumé</h3>
+					<p style="text-align:left">
+						Git permet <span class="fragment" data-fragment-index="0">de <b>suivre les évolutions</b> de son code</span><span class="fragment" data-fragment-index="1">, de <b>revenir en arrière</b> si nécessaire</span><span class="fragment" data-fragment-index="2">, et de <b>travailler à plusieurs</b>!</span>
+					</p>
+				</section>
+
+				<!-- Fonctionnement et utilisation -->
+				<section>
+					<h2>Fonctionnement</h2>
+				</section>
+
+				<section data-background="#eee" data-background-transition="fade">
+					<img src="img/git_usage.png">
+					<p style="color:#111">
+						<small>Source : <a href="http://blog.fabien-tools.net/wp-content/uploads/2012/11/Git.png" target="_blank">http://blog.fabien-tools.net/wp-content/uploads/2012/11/Git.png</a></small>
+					</p>
+				</section>
+
+				<section data-background-video="img/commit.webm" data-background-color="#000000">
+					<h2>Utilisation</h2>
+				</section>
+
+				<!-- Repo -->
+				<section style="text-align:left">
+					<h3>Repositories</h3>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Création d'un dépot</h4>
+					<pre>
+						<code class="shell" data-trim>$ git init</code>
+					</pre>
+					<p class="fragment current-visible">
+						Le dépot est créé! Un dossier caché <b>.git</b> viens d'être ajouté.
+					</p>
+					<aside class="notes">
+						Le "git init" est à faire dans le dossier de votre projet!
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Cloner un dépot</h4>
+					<pre>
+						<code class="shell" data-trim>$ git clone url_du_depot</code>
+					</pre>
+					<p class="fragment current-visible">
+						Le dépot est <b>téléchargé</b>, avec tout l'historique de modification des fichiers.
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Créer un dépot vide</h4>
+					<pre>
+						<code class="shell" data-trim>$ git clone --bare</code>
+					</pre>
+					<p>
+						ou
+					</p>
+					<pre>
+						<code class="shell" data-trim>$ git init --bare</code>
+					</pre>
+				</section>
+
+				<!-- Remotes -->
+				<section style="text-align:left">
+					<h3>Remotes</h3>
+				</section>
+
+				<!-- Commits -->
+				<section style="text-align:left">
+					<h3>Commits</h3>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Méthode de travail</h4>
+					<ul>
+						<li>
+							<b>effectuer</b> des modifications
+						</li>
+						<li>
+							<b>tester</b> les modifications
+						</li>
+						<li>
+							enregistrer (et donc faire un <b>commit</b>)
+						</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Fonctions clés</h4>
+					<div class="fragment current-visible">
+						<p>
+							Lister les <b>fichiers</b> qui ont été modifiés :
+						</p>
+						<pre>
+							<code class="shell" data-trim>$ git status</code>
+						</pre>
+					</div>
+					<div class="fragment current-visible">
+						<p>
+							Voir les <b>lignes</b> qui ont été modifiés : 
+						</p>
+						<pre>
+							<code class="shell" data-trim>$ git diff</code>
+						</pre>
+					</div>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Tracker des nouveaux fichiers</h4>
+					<pre>
+						<code class="shell" data-trim>$ git add fileA fileB fileC dir1/fileD # ou git add -a pour tout ajouter</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Faire un commit</h4>
+					<pre>
+						<code class="shell" data-trim>$ git commit -m "ma correction de bug"</code>
+					</pre>
+					<p class="fragment">
+						par exemple <b>"Fix #234 internal server error on url"</b>
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Modifier le message du dernier commit</h4>
+					<pre>
+						<code class="shell" data-trim>$ git commit --amend</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Annuler un commit</h4>
+					<pre>
+						<code class="shell" data-trim>$ git reset HEAD^</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Annuler le dernier commit ET les modifications sur les fichiers</h4>
+					<pre>
+						<code class="shell" data-trim>$ git reset --hard HEAD^</code>
+					</pre>
+				</section>
+
+				<!-- Logs -->
+				<section style="text-align:left">
+					<h3>Logs</h3>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Historique des commits</h4>
+					<pre>
+						<code class="shell" data-trim>$ git log</code>
+					</pre>
+				</section>
+
+				<!-- Push/Pull -->
+				<section style="text-align:left">
+					<h3>Push/Pull</h3>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Télercharger les nouveautés</h4>
+					<pre>
+						<code class="shell" data-trim>$ git pull</code>
+					</pre>
+					<div class="fragment">
+						<p style="text-align:left">2 cas possibles :</p>
+						<ul>
+							<li class="fragment">
+								<b>Fast forward</b> si aucun fichier modifié depuis le dernier pull
+							</li>
+							<li class="fragment">
+								Sinon, les modifications sont <b>fusionnées</b> automatiquement
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Envoyer les nouveautés</h4>
+					<pre>
+						<code class="shell" data-trim>$ git push</code>
+					</pre>
+					<p class="fragment">
+						Attention, un push est <b>irréversible</b>!<br/>
+						À faire qu'une seule fois par jour si possible.
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Faire un commit inverse</h4>
+					<pre class="fragment">
+						<code class="shell" data-trim>$ git revert id_du_commit</code>
+					</pre>	
+					<aside class="notes">
+						Si vous avez push un commit et que vous souhaitez l'annuler, il faut effectuer le commit <b>inverse</b>. Cela s'appelle un <b>revert</b> :
+					</aside>
+				</section>
+
+				<!-- Branches -->
+				<section style="text-align:left">
+					<h3>Branches</h3>
+				</section>
+
+				<section data-background="#eee" data-background-transition="fade">
+					<img src="img/branch.png">
+					<p>
+						<small>
+							<a href="http://4.bp.blogspot.com/-Kz_ayPvKD8M/UFw1Y0JQpQI/AAAAAAAAAZw/Xrqutp151mk/s1600/sd_merge.png">Source</a>
+						</small>
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<ul>
+						<li>
+							La fonctionnalité est elle simple à développer?
+						</li>
+						<li class="fragment">
+							Puis-je la faire en une seule fois?
+						</li>
+						<li class="fragment">
+							Suis-je sûr de moi?
+						</li>
+					</ul>
+
+					<aside class="notes">
+						Si non, il faut créer une branche pour plus de souplesse. C'est une sorte de copie du projet!<br/>
+						Vous pouvez ainsi faire tous les tests que vous voulez, puis l'intégrer à votre code principal une fois que tout est fini. 
+						Si ce que vous avez développé ne vous convient pas, il suffit juste de supprimer la branche.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Lister les branches</h4>
+					<pre>
+						<code class="shell" data-trim>$ git branch</code>
+					</pre>
+					<p class="fragment current-visible">
+						La branche <b>actuelle</b> est symbolisée par une étoile <b>*</b>
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Créer une nouvelle branche</h4>
+					<pre>
+						<code class="shell" data-trim>$ git branch nom_de_la_branche</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Changer de branche</h4>
+					<pre>
+						<code class="shell" data-trim>$ git checkout nom_de_la_branche</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Fusionner la branche X dans la branche Y</h4>
+					<p>
+						Vérifier qu'on est bien sur la branche de destination <b>Y</b>, puis :
+					</p>
+					<pre>
+						<code class="shell" data-trim>$ git merge X</code>
+					</pre>
+				</section>
+
+				<!-- Stash -->
+				<section style="text-align:left">
+					<h3>Stash</h3>
+					<aside class="notes">
+						Vous pouvez mettre de côté des modifications que vous ne voulez pas encore commités.<br/>
+						Par exemple, si vous devez basculer d'urgence sur la branche master pour corriger un bug critique, mais que vous n'avez pas fini votre dev en cours.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Mettre de côté des changements</h4>
+					<pre>
+						<code class="shell" data-trim>$ git stash</code>
+					</pre>
+					<aside class="notes">
+						On dit que la branche est de nouveau propre.<br/>
+						Vous pouvez maintenant changer de branche.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Réappliquer les modifications</h4>
+					<pre>
+						<code class="shell" data-trim>$ git stash apply</code>
+					</pre>
+					<aside class="notes">
+						Vous pouvez vérifier avec <b>git status</b>.
+					</aside>
+				</section>
+
+				<!-- Conflits -->
+				<section style="text-align:left">
+					<h3>Gestion des conflits</h3>
+				</section>
+
+				<section style="text-align:left">
+					<p>
+						Lorsque 2 personnes modifient la même ligne, Git ne sait pas comment effectuer une fusion.
+					</p>
+					<p class="fragment">
+						Il laisse alors le <b>choix</b> à l'utilisateur
+					</p>
+					<aside class="notes">
+						Ce cas arrive rarement, mais il est très important de savoir comment le résoudre.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<p>Les zones de conflits sont indiqués par les symboles suivants :</p>
+					<p>
+						<b><<<<<<<<<</b>
+					</p>
+					<p class="fragment">
+						Il faut <b>analyser</b> le code et effectuer soi-même la fusion.
+					</p>
+					<p class="fragment">
+						<b>Retester</b> tout, une fois satisfait, il reste juste à faire un <b>commit</b>!
+					</p>
+				</section>
+
+				<!-- Gitignore -->
+				<section style="text-align:left">
+					<h3>Gitignore</h3>
+				</section>
+
+				<section style="text-align:left">
+					<p>
+						Le fichier <b>.gitignore</b> permet de spécifier quels fichiers ou dossier ne doivent pas êtres <b>trackés</b> par git.
+					</p>
+					<p class="fragment">
+						Chaque ligne correspond à un fichier ou un dossier.
+					</p>
+					<pre class="fragment">
+						<code class="nohighlight" data-trim>
+/vendor
+/node_modules
+.env
+/.idea
+/public/css
+						</code>
+					</pre>
+				</section>
+
+				<!-- Installation -->
+				<section>
+					<h2>Installation de Git</h2>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Mac OS</h3>
+					<p>
+						Via l'installateur : <a href="https://code.google.com/p/git-osx-installer" target="_blank">https://code.google.com/p/git-osx-installer</a>
+					</p>
+					<p>
+						Dans le terminal entrez les commandes suivantes :
+					</p>
+					<pre>
+						<code class="shell" data-trim>
+$ git config --global color.diff auto
+$ git config --global color.status auto
+$ git config --global color.branch auto
+						</code>
+					</pre>
+					<p>
+						Puis :
+					</p>
+					<pre>
+						<code class="shell" data-trim>
+$ git config --global user.name "Prénom NOM"
+$ git config --global user.email adresse@email.com
+						</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Windows</h3>
+					<p>
+						Installer msysgit : <a href="http://msysgit.github.io" target="_blank">http://msysgit.github.io</a>
+					</p>
+				</section>
+
+				<section style="text-align:left">
+					<h3>Linux</h3>
+					<p>
+						Base Debian : 
+					</p>
+					<pre>
+						<code class="shell" data-trim># aptitude install git-core</code>
+					</pre>
+					<p>
+						Base RedHat : 
+					</p>
+					<pre>
+						<code class="shell" data-trim># yum install git</code>
+					</pre>
+				</section>
+
+				<section data-background="img/exercice.gif">
+					<h2>Exercice</h2>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
