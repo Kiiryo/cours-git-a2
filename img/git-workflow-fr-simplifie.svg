@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="git-workflow.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path4319"
+         style="font-size:12.0;fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4301"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4319-8"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.57982756"
+     inkscape:cx="568.64575"
+     inkscape:cy="691.08384"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none"
+       x="41.276882"
+       y="536.54108"
+       id="text2985"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2987"
+         x="41.276882"
+         y="536.54108">Master</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="614.49323"
+       y="451.767"
+       id="text2989"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2991"
+         x="614.49323"
+         y="451.767">Release</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="203.23523"
+       y="711.23041"
+       id="text2993"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2995"
+         x="203.23523"
+         y="711.23041">Feature 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="234.62991"
+       y="765.60907"
+       id="text2997"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2999"
+         x="234.62991"
+         y="765.60907">Feature 2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+       x="614.74756"
+       y="486.61731"
+       id="text3005"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="614.74756"
+         y="486.61731"
+         id="tspan5912">Pas de nouvelles fonctionnalités</tspan><tspan
+         sodipodi:role="line"
+         x="614.74756"
+         y="504.11731"
+         id="tspan4259">dans la branche Release.</tspan></text>
+    <path
+       style="fill:#aa0000;stroke:#760000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 38.793103,302.71517 905.172417,0"
+       id="path3009"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none"
+       x="38.041996"
+       y="561.17407"
+       id="text3779"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3781"
+         x="38.041996"
+         y="561.17407">Master est la branche principale, </tspan><tspan
+         sodipodi:role="line"
+         x="38.041996"
+         y="578.67407"
+         id="tspan4247">elle est toujours dans un état </tspan><tspan
+         sodipodi:role="line"
+         x="38.041996"
+         y="596.17407"
+         id="tspan3785">&quot;stable&quot; et &quot;publiable&quot;.</tspan></text>
+    <path
+       style="fill:none;stroke:#0000df;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 542.68293,301.74964 58.80222,-102.70466 239.10891,0"
+       id="path3789"
+       inkscape:connector-curvature="0"
+       transform="translate(0,308.2677)"
+       sodipodi:nodetypes="ccc" />
+    <g
+       id="g3414"
+       style="fill:#004e00;fill-opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#004e00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 44.521484,611.30273 -1.769531,0.92969 54.339844,103.50586 329.478513,0 63.15625,-102.2539 -1.70117,-1.05079 -62.57031,101.30469 -327.154299,0 -53.779297,-102.43555 z"
+         id="path3791"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 470.09061,626.4859 20.15147,-15.80569 -5.11111,25.09538 c -2.42196,-6.00945 -8.50816,-9.74259 -15.04036,-9.28969 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#004e00;fill-opacity:1"
+         id="path3418"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4239"
+       style="fill:#004e00;fill-opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#004e00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.97543395;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 106.17578,609.25781 -1.70703,0.99414 93.57422,160.65625 408.40039,-1.22265 80.39453,-154.83789 -1.75391,-0.91016 -79.84375,153.77539 -406.06445,1.2168 -93,-159.67188 z"
+         id="path3793"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 668.45049,629.09555 18.68864,-17.04765 -3.19216,25.09378 c -2.82674,-5.74143 -9.0956,-8.97174 -15.49648,-8.04613 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#004e00;fill-opacity:1"
+         id="path4245"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       x="48.780483"
+       y="793.82562"
+       id="text3897"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3899"
+         x="48.780483"
+         y="793.82562">Les développements se font dans les branches</tspan><tspan
+         sodipodi:role="line"
+         x="48.780483"
+         y="811.32562"
+         id="tspan4282">features. Ces branches sont fusionnées dans </tspan><tspan
+         sodipodi:role="line"
+         x="48.780483"
+         y="828.82562"
+         id="tspan4284">Master après avoir passé quelque temps dans la</tspan><tspan
+         sodipodi:role="line"
+         x="48.780483"
+         y="846.32562"
+         id="tspan3909">branche Integration, où elles ont pu être testés.</tspan></text>
+    <g
+       id="g4230">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ab00de;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 659.42578,508.00391 -1.7793,0.91211 51.21875,100 1.78125,-0.91211 -51.2207,-100 z"
+         id="path3911"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 707.90749,585.38428 3.09078,25.42339 -18.82494,-17.36443 c 6.39533,1.03885 12.74003,-2.23574 15.73416,-8.05896 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#ab00de;fill-opacity:1"
+         id="path4236"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none"
+       x="709.07318"
+       y="536.50854"
+       id="text3913"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="709.07318"
+         y="536.50854"
+         id="tspan5293">Les corrections des bugs</tspan><tspan
+         sodipodi:role="line"
+         x="709.07318"
+         y="554.00854"
+         id="tspan4266">sont effectuées dans la branche</tspan><tspan
+         sodipodi:role="line"
+         x="709.07318"
+         y="571.50854"
+         id="tspan4270">Release et fusionnées dans la </tspan><tspan
+         sodipodi:role="line"
+         x="709.07318"
+         y="589.00854"
+         id="tspan4272">branche Master</tspan><tspan
+         sodipodi:role="line"
+         x="709.07318"
+         y="606.50854"
+         id="tspan5291" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;"
+       x="557.31708"
+       y="81.899361"
+       id="text5669"
+       sodipodi:linespacing="125%"
+       transform="translate(0,308.2677)"><tspan
+         sodipodi:role="line"
+         id="tspan5671"
+         x="557.31708"
+         y="81.899361">Tag version 1.2 beta</tspan></text>
+    <g
+       id="g4222">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 600.90234,405.14258 0,100 2,0 0,-100 -2,0 z"
+         id="path5675"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 610.77666,483.76178 -8.83899,24.03693 -8.83899,-24.03693 c 5.21854,3.84009 12.3584,3.81797 17.67798,0 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#ffffff"
+         id="path4228"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4214">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 821.64453,405.83789 0,100 2,0 0,-100 -2,0 z"
+         id="path5675-6"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 831.51833,484.45696 -8.83899,24.03693 -8.83899,-24.03693 c 5.21854,3.84009 12.3584,3.81797 17.67798,0 z"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#ffffff"
+         id="path4220"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;"
+       x="778.76038"
+       y="397.5719"
+       id="text5669-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5671-1"
+         x="778.76038"
+         y="397.5719">Tag version 1.2.0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
+       x="615.8537"
+       y="469.43536"
+       id="text5906"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5908"
+         x="615.8537"
+         y="469.43536">Branch 1.2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
+       x="655.15955"
+       y="700.41675"
+       id="text3897-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="655.15955"
+         y="700.41675"
+         id="tspan5970">Fusion de la branche &quot;Feature&quot; dans la</tspan><tspan
+         sodipodi:role="line"
+         x="655.15955"
+         y="717.91675"
+         id="tspan4278">branche Master, seulement après avoir </tspan><tspan
+         sodipodi:role="line"
+         x="655.15955"
+         y="735.41675"
+         id="tspan4280">été testé</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none"
+       x="425.68521"
+       y="889.79022"
+       id="text3001"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3003"
+         x="425.68521"
+         y="889.79022">Integration</tspan></text>
+    <g
+       transform="translate(1.8485641,0.998709)"
+       id="g4246">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#6e2a18;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 548.33008,767.62695 -1.67969,1.08594 48.21484,74.55273 1.67969,-1.08593 -48.21484,-74.55274 z"
+         id="path3795"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 591.54613,819.94982 5.63118,24.98382 -20.47538,-15.38379 c 6.46737,0.3906 12.4507,-3.50528 14.8442,-9.60003 z"
+         style="font-size:12px;fill:#6e2a18;fill-opacity:1;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4252"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(0.11804077,-1.648035)"
+       id="g4238">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#6e2a18;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 425.71289,715.46484 -1.63867,1.14649 90.39258,129.3125 1.63867,-1.14649 -90.39258,-129.3125 z"
+         id="path3795-1-0"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 510.30992,822.74273 6.52691,24.76492 -21.01589,-14.63674 c 6.47724,0.15754 12.31644,-3.95122 14.48898,-10.12818 z"
+         style="font-size:12px;fill:#6e2a18;fill-opacity:1;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4244"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       transform="translate(1.8485641,-1.001291)"
+       id="g4254">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#6e2a18;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 605.04883,769.58984 -1.63086,1.16016 53.09375,74.55469 1.6289,-1.16016 -53.09179,-74.55469 z"
+         id="path3795-15"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 652.15233,822.16004 6.74365,24.70678 -21.14333,-14.45203 c 6.47837,0.10077 12.28134,-4.05899 14.39968,-10.25475 z"
+         style="font-size:12px;fill:#6e2a18;fill-opacity:1;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         id="path4260"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#803300;fill-opacity:1;stroke:none"
+       x="409.16562"
+       y="923.31213"
+       id="text3885"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3887"
+         x="409.16562"
+         y="923.31213">C'est une branche intéréssante car elle contient</tspan><tspan
+         sodipodi:role="line"
+         x="409.16562"
+         y="940.81213"
+         id="tspan4436">toute les nouveautés, mais ces dernières </tspan><tspan
+         sodipodi:role="line"
+         x="409.16562"
+         y="958.31213"
+         id="tspan3895">peuvent être instables.</tspan><tspan
+         sodipodi:role="line"
+         x="409.16562"
+         y="975.81213"
+         id="tspan4454">Cette branche est parfois réinitialisée.</tspan><tspan
+         sodipodi:role="line"
+         x="409.16562"
+         y="993.31213"
+         id="tspan4456">Aucun développement ne doit être fait à partir</tspan><tspan
+         sodipodi:role="line"
+         x="409.16562"
+         y="1010.8121"
+         id="tspan4458">de cette branche.</tspan></text>
+    <path
+       style="fill:#b04411;fill-opacity:1;stroke:#6e2a18;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:none"
+       d="m 426.70661,844.00303 369.69853,2.52062"
+       id="path3795-1-9"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
