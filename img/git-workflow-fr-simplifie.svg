@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="git-workflow.svg">
+   sodipodi:docname="git-workflow-fr-simplifie.svg">
   <defs
      id="defs4">
     <marker
@@ -66,8 +66,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.57982756"
-     inkscape:cx="568.64575"
-     inkscape:cy="691.08384"
+     inkscape:cx="458.09767"
+     inkscape:cy="422.39524"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -95,26 +95,26 @@
      transform="translate(0,-308.2677)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none"
-       x="41.276882"
-       y="536.54108"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
+       x="35.276882"
+       y="528.54108"
        id="text2985"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2987"
-         x="41.276882"
-         y="536.54108">Master</tspan></text>
+         x="35.276882"
+         y="528.54108">Master</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="614.49323"
-       y="451.767"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+       x="612.49323"
+       y="431.767"
        id="text2989"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan2991"
-         x="614.49323"
-         y="451.767">Release</tspan></text>
+         x="612.49323"
+         y="431.767">Release</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -140,18 +140,20 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
-       x="614.74756"
-       y="486.61731"
+       x="612.74756"
+       y="472.61731"
        id="text3005"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="614.74756"
-         y="486.61731"
-         id="tspan5912">Pas de nouvelles fonctionnalités</tspan><tspan
+         x="612.74756"
+         y="472.61731"
+         id="tspan5912"
+         style="font-size:17.5px">Pas de nouvelles fonctionnalités</tspan><tspan
          sodipodi:role="line"
-         x="614.74756"
-         y="504.11731"
-         id="tspan4259">dans la branche Release.</tspan></text>
+         x="612.74756"
+         y="494.49231"
+         id="tspan4259"
+         style="font-size:17.5px">dans la branche Release.</tspan></text>
     <path
        style="fill:#aa0000;stroke:#760000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 38.793103,302.71517 905.172417,0"
@@ -160,23 +162,26 @@
        transform="translate(0,308.2677)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800000;fill-opacity:1;stroke:none"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none"
        x="38.041996"
-       y="561.17407"
+       y="553.17407"
        id="text3779"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3781"
          x="38.041996"
-         y="561.17407">Master est la branche principale, </tspan><tspan
+         y="553.17407"
+         style="font-size:17.5px">Master est la branche principale, </tspan><tspan
          sodipodi:role="line"
          x="38.041996"
-         y="578.67407"
-         id="tspan4247">elle est toujours dans un état </tspan><tspan
+         y="575.04907"
+         id="tspan4247"
+         style="font-size:17.5px">elle est toujours dans un état </tspan><tspan
          sodipodi:role="line"
          x="38.041996"
-         y="596.17407"
-         id="tspan3785">&quot;stable&quot; et &quot;publiable&quot;.</tspan></text>
+         y="596.92407"
+         id="tspan3785"
+         style="font-size:17.5px">&quot;stable&quot; et &quot;publiable&quot;.</tspan></text>
     <path
        style="fill:none;stroke:#0000df;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 542.68293,301.74964 58.80222,-102.70466 239.10891,0"
@@ -216,25 +221,39 @@
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="48.780483"
-       y="793.82562"
+       y="797.82562"
        id="text3897"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3899"
          x="48.780483"
-         y="793.82562">Les développements se font dans les branches</tspan><tspan
+         y="797.82562"
+         style="font-size:17.5px">Les développements se font dans </tspan><tspan
          sodipodi:role="line"
          x="48.780483"
-         y="811.32562"
-         id="tspan4282">features. Ces branches sont fusionnées dans </tspan><tspan
+         y="819.70062"
+         id="tspan4282"
+         style="font-size:17.5px">les branches features. Ces branches </tspan><tspan
          sodipodi:role="line"
          x="48.780483"
-         y="828.82562"
-         id="tspan4284">Master après avoir passé quelque temps dans la</tspan><tspan
+         y="841.57562"
+         id="tspan4284"
+         style="font-size:17.5px">sont fusionnées dans Master après </tspan><tspan
          sodipodi:role="line"
          x="48.780483"
-         y="846.32562"
-         id="tspan3909">branche Integration, où elles ont pu être testés.</tspan></text>
+         y="863.45062"
+         style="font-size:17.5px"
+         id="tspan4237">avoir passé quelque temps dans la</tspan><tspan
+         sodipodi:role="line"
+         x="48.780483"
+         y="885.32562"
+         id="tspan3909"
+         style="font-size:17.5px">branche Integration, où elles ont </tspan><tspan
+         sodipodi:role="line"
+         x="48.780483"
+         y="907.20062"
+         style="font-size:17.5px"
+         id="tspan4239">pu être testés.</tspan></text>
     <g
        id="g4230">
       <path
@@ -251,30 +270,35 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#800080;fill-opacity:1;stroke:none"
-       x="709.07318"
-       y="536.50854"
+       x="717.07318"
+       y="532.50854"
        id="text3913"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="709.07318"
-         y="536.50854"
-         id="tspan5293">Les corrections des bugs</tspan><tspan
+         x="717.07318"
+         y="532.50854"
+         id="tspan5293"
+         style="font-size:17.5px">Les corrections des bugs</tspan><tspan
          sodipodi:role="line"
-         x="709.07318"
-         y="554.00854"
-         id="tspan4266">sont effectuées dans la branche</tspan><tspan
+         x="717.07318"
+         y="554.38354"
+         id="tspan4266"
+         style="font-size:17.5px">sont effectuées dans la branche</tspan><tspan
          sodipodi:role="line"
-         x="709.07318"
-         y="571.50854"
-         id="tspan4270">Release et fusionnées dans la </tspan><tspan
+         x="717.07318"
+         y="576.25854"
+         id="tspan4270"
+         style="font-size:17.5px">Release et fusionnées dans la </tspan><tspan
          sodipodi:role="line"
-         x="709.07318"
-         y="589.00854"
-         id="tspan4272">branche Master</tspan><tspan
+         x="717.07318"
+         y="598.13354"
+         id="tspan4272"
+         style="font-size:17.5px">branche Master</tspan><tspan
          sodipodi:role="line"
-         x="709.07318"
-         y="606.50854"
-         id="tspan5291" /></text>
+         x="717.07318"
+         y="620.00854"
+         id="tspan5291"
+         style="font-size:17.5px" /></text>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;"
@@ -300,19 +324,6 @@
          id="path4228"
          inkscape:connector-curvature="0" />
     </g>
-    <g
-       id="g4214">
-      <path
-         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         d="m 821.64453,405.83789 0,100 2,0 0,-100 -2,0 z"
-         id="path5675-6"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 831.51833,484.45696 -8.83899,24.03693 -8.83899,-24.03693 c 5.21854,3.84009 12.3584,3.81797 17.67798,0 z"
-         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round;fill:#ffffff"
-         id="path4220"
-         inkscape:connector-curvature="0" />
-    </g>
     <text
        xml:space="preserve"
        style="font-size:18px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans;"
@@ -326,34 +337,38 @@
          y="397.5719">Tag version 1.2.0</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="615.8537"
-       y="469.43536"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none"
+       x="613.8537"
+       y="451.43536"
        id="text5906"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan5908"
-         x="615.8537"
-         y="469.43536">Branch 1.2</tspan></text>
+         x="613.8537"
+         y="451.43536"
+         style="font-size:17.5px">Branch 1.2</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none"
        x="655.15955"
-       y="700.41675"
+       y="712.41675"
        id="text3897-8"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          x="655.15955"
-         y="700.41675"
-         id="tspan5970">Fusion de la branche &quot;Feature&quot; dans la</tspan><tspan
+         y="712.41675"
+         id="tspan5970"
+         style="font-size:17.5px">Fusion de la branche &quot;Feature&quot; dans la</tspan><tspan
          sodipodi:role="line"
          x="655.15955"
-         y="717.91675"
-         id="tspan4278">branche Master, seulement après avoir </tspan><tspan
+         y="734.29175"
+         id="tspan4278"
+         style="font-size:17.5px">branche Master, seulement après avoir </tspan><tspan
          sodipodi:role="line"
          x="655.15955"
-         y="735.41675"
-         id="tspan4280">été testé</tspan></text>
+         y="756.16675"
+         id="tspan4280"
+         style="font-size:17.5px">été testé</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none"
@@ -409,35 +424,41 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#803300;fill-opacity:1;stroke:none"
-       x="409.16562"
-       y="923.31213"
+       style="font-style:normal;font-weight:normal;font-size:14px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:none;"
+       x="427.23816"
+       y="918.13818"
        id="text3885"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan3887"
-         x="409.16562"
-         y="923.31213">C'est une branche intéréssante car elle contient</tspan><tspan
+         x="427.23816"
+         y="918.13818"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">C'est une branche intéréssante car elle contient</tspan><tspan
          sodipodi:role="line"
-         x="409.16562"
-         y="940.81213"
-         id="tspan4436">toute les nouveautés, mais ces dernières </tspan><tspan
+         x="427.23816"
+         y="940.01318"
+         id="tspan4436"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">toute les nouveautés, mais ces dernières </tspan><tspan
          sodipodi:role="line"
-         x="409.16562"
-         y="958.31213"
-         id="tspan3895">peuvent être instables.</tspan><tspan
+         x="427.23816"
+         y="961.88818"
+         id="tspan3895"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">peuvent être instables.</tspan><tspan
          sodipodi:role="line"
-         x="409.16562"
-         y="975.81213"
-         id="tspan4454">Cette branche est parfois réinitialisée.</tspan><tspan
+         x="427.23816"
+         y="983.76318"
+         id="tspan4454"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">Cette branche est parfois réinitialisée.</tspan><tspan
          sodipodi:role="line"
-         x="409.16562"
-         y="993.31213"
-         id="tspan4456">Aucun développement ne doit être fait à partir</tspan><tspan
+         x="427.23816"
+         y="1005.6382"
+         id="tspan4456"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">Aucun développement ne doit être fait à partir</tspan><tspan
          sodipodi:role="line"
-         x="409.16562"
-         y="1010.8121"
-         id="tspan4458">de cette branche.</tspan></text>
+         x="427.23816"
+         y="1027.5132"
+         id="tspan4458"
+         style="font-size:17.5px;fill:#ff6600;fill-opacity:1;">de cette branche.</tspan></text>
     <path
        style="fill:#b04411;fill-opacity:1;stroke:#6e2a18;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-mid:none;marker-end:none"
        d="m 426.70661,844.00303 369.69853,2.52062"
