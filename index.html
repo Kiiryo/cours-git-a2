@@ -288,30 +288,22 @@
 							<code class="bash" data-trim>$ git status</code>
 						</pre>
 					</div>
+
 					<div class="fragment current-visible">
-						<p>
-							Voir les <b>lignes</b> qui ont été modifiés :
-						</p>
+						<p>Tracker des nouveaux fichiers</p>
 						<pre>
-							<code class="bash" data-trim>$ git diff</code>
+							<code class="bash" data-trim>$ git add fileA fileB fileC dir1/fileD</code>
 						</pre>
 					</div>
 				</section>
 
 				<section style="text-align:left">
-					<h4>Tracker des nouveaux fichiers</h4>
-					<pre>
-						<code class="bash" data-trim>$ git add fileA fileB fileC dir1/fileD # ou git add -a pour tout ajouter</code>
-					</pre>
-				</section>
-
-				<section style="text-align:left">
 					<h4>Faire un commit</h4>
 					<pre>
-						<code class="bash" data-trim>$ git commit -m "ma correction de bug"</code>
+						<code class="bash" data-trim>$ git commit -m "Implémentation de ma nouvelle fonctionnalité"</code>
 					</pre>
 					<p class="fragment">
-						par exemple <b>"Fix #234 internal server error on url"</b>
+						par exemple <b>"Fix #2 Ajout de la fonctionnalité de Login."</b>
 					</p>
 				</section>
 
@@ -319,20 +311,6 @@
 					<h4>Modifier le message du dernier commit</h4>
 					<pre>
 						<code class="bash" data-trim>$ git commit --amend</code>
-					</pre>
-				</section>
-
-				<section style="text-align:left">
-					<h4>Annuler un commit</h4>
-					<pre>
-						<code class="bash" data-trim>$ git reset HEAD^</code>
-					</pre>
-				</section>
-
-				<section style="text-align:left">
-					<h4>Annuler le dernier commit ET les modifications sur les fichiers</h4>
-					<pre>
-						<code class="bash" data-trim>$ git reset --hard HEAD^</code>
 					</pre>
 				</section>
 
@@ -355,6 +333,7 @@
 
 				<section style="text-align:left">
 					<h4>Télercharger les nouveautés</h4>
+					<p>À faire <b>avant chaque push</b>.</p>
 					<pre>
 						<code class="bash" data-trim>$ git pull</code>
 					</pre>
@@ -377,33 +356,13 @@
 						<code class="bash" data-trim>$ git push</code>
 					</pre>
 					<p class="fragment">
-						Attention, un push est <b>irréversible</b>!<br/>
-						À faire qu'une seule fois par jour si possible.
+						Attention, un push est <b>irréversible</b>!
 					</p>
-				</section>
-
-				<section style="text-align:left">
-					<h4>Faire un commit inverse</h4>
-					<pre class="fragment">
-						<code class="bash" data-trim>$ git revert id_du_commit</code>
-					</pre>
-					<aside class="notes">
-						Si vous avez push un commit et que vous souhaitez l'annuler, il faut effectuer le commit <b>inverse</b>. Cela s'appelle un <b>revert</b> :
-					</aside>
 				</section>
 
 				<!-- Branches -->
 				<section style="text-align:left">
 					<h3>Branches</h3>
-				</section>
-
-				<section>
-						<p>
-							<small>
-								Source : <a href="https://community.kde.org/Frameworks/Git_Workflow" target="_blank">KDE Git Workflow</a>. Schéma simplifié.
-							</small>
-							<img src="img/git-workflow-fr-simplifie.svg">
-						</p>
 				</section>
 
 				<section style="text-align:left">
@@ -424,6 +383,15 @@
 						Vous pouvez ainsi faire tous les tests que vous voulez, puis l'intégrer à votre code principal une fois que tout est fini.
 						Si ce que vous avez développé ne vous convient pas, il suffit juste de supprimer la branche.
 					</aside>
+				</section>
+
+				<section>
+						<p>
+							<small>
+								Source : <a href="https://community.kde.org/Frameworks/Git_Workflow" target="_blank">KDE Git Workflow</a>. Schéma simplifié.
+							</small>
+							<img src="img/git-workflow-fr-simplifie.svg">
+						</p>
 				</section>
 
 				<section style="text-align:left">
@@ -458,36 +426,6 @@
 					<pre>
 						<code class="bash" data-trim>$ git merge X</code>
 					</pre>
-				</section>
-
-				<!-- Stash -->
-				<section style="text-align:left">
-					<h3>Stash</h3>
-					<aside class="notes">
-						Vous pouvez mettre de côté des modifications que vous ne voulez pas encore commités.<br/>
-						Par exemple, si vous devez basculer d'urgence sur la branche master pour corriger un bug critique, mais que vous n'avez pas fini votre dev en cours.
-					</aside>
-				</section>
-
-				<section style="text-align:left">
-					<h4>Mettre de côté des changements</h4>
-					<pre>
-						<code class="bash" data-trim>$ git stash</code>
-					</pre>
-					<aside class="notes">
-						On dit que la branche est de nouveau propre.<br/>
-						Vous pouvez maintenant changer de branche.
-					</aside>
-				</section>
-
-				<section style="text-align:left">
-					<h4>Réappliquer les modifications</h4>
-					<pre>
-						<code class="bash" data-trim>$ git stash apply</code>
-					</pre>
-					<aside class="notes">
-						Vous pouvez vérifier avec <b>git status</b>.
-					</aside>
 				</section>
 
 				<!-- Conflits -->
@@ -540,15 +478,11 @@
 					</p>
 					<pre class="fragment">
 						<code class="nohighlight" data-trim>
-/vendor
-/node_modules
-.env
-/.idea
-/public/css
+config/config.php
 						</code>
 					</pre>
 					<p class="fragment">
-						Les fichiers àjoutés au .gitignore n'apparaitront plus dans <b>git status</b>, même s'ils sont modifiés.
+						Les fichiers ajoutés au .gitignore n'apparaitront plus dans <b>git status</b>, même s'ils sont modifiés.
 					</p>
 				</section>
 
@@ -622,10 +556,19 @@ $ git config --global user.email adresse@email.com
 				</section>
 
 				<section style="text-align:left">
-					<h3> Par groupe de 3 : </h3>
+					<h3> Par groupe de 2 : </h3>
+					<h4>Une seule fois par groupe</h4>
 					<ul>
-						<li><b>Forkez</b> le dépot (une seule fois par groupe)</li>
+						<li><b>Forkez</b> le dépot</li>
+						<li>Ajoutez votre coéquipier à la liste des collaborateurs.</li>
+					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Pour tous</h4>
+					<ul>
 						<li><b>Clonez</b> le dépot sur vos machines</li>
+						<li>Créez une base de données <b>iim_git_soundcloud</b> et importez le fichier IIM_Git_SoundCloud.sql</li>
 						<li><b>Copiez</b> le fichier config-sample.php en config.php, et <b>modifiez le</b>.</li>
 						<li>Chacun a sa propre configuration du config.php, n'oubliez pas de l'<b>ajouter au .gitignore</b>!</li>
 						<li>Choisissez chacun une <a href="https://github.com/AdrienKuhn/cours-git-a2-exercice/issues" target="_blank">issue</a> et corrigez la.</li>
@@ -669,6 +612,77 @@ $ git config --global user.email adresse@email.com
 							<b>c'est ce qui vous démarquera</b> des autres candidats pour vos stages et vos emplois !
 						</li>
 					</ul>
+				</section>
+
+				<section style="text-align:left">
+					<h2>Fonctions avancées</h2>
+				</section>
+
+				<section>
+					<p>
+						Voir les <b>lignes</b> qui ont été modifiés avant de commiter:
+					</p>
+					<pre>
+						<code class="bash" data-trim>$ git diff</code>
+					</pre>
+				</section>
+
+				<!-- Stash -->
+				<section style="text-align:left">
+					<h3>Stash</h3>
+					<aside class="notes">
+						Vous pouvez mettre de côté des modifications que vous ne voulez pas encore commités.<br/>
+						Par exemple, si vous devez basculer d'urgence sur la branche master pour corriger un bug critique, mais que vous n'avez pas fini votre dev en cours.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Mettre de côté des changements</h4>
+					<pre>
+						<code class="bash" data-trim>$ git stash</code>
+					</pre>
+					<aside class="notes">
+						On dit que la branche est de nouveau propre.<br/>
+						Vous pouvez maintenant changer de branche.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Réappliquer les modifications</h4>
+					<pre>
+						<code class="bash" data-trim>$ git stash apply</code>
+					</pre>
+					<aside class="notes">
+						Vous pouvez vérifier avec <b>git status</b>.
+					</aside>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Annuler le dernier commit</h4>
+					<p>
+						Si vous avez commité par erreur, et que <b>vous n'avez pas encore push</b> les modifications, vous pouvez annuler le <b>dernier commit</b>.
+					</p>
+					<pre>
+						<code class="bash" data-trim>$ git reset HEAD^</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Annuler le dernier commit ET les modifications sur les fichiers</h4>
+					<pre>
+						<code class="bash" data-trim>$ git reset --hard HEAD^</code>
+					</pre>
+				</section>
+
+				<section style="text-align:left">
+					<h4>Faire un commit inverse</h4>
+					<p>
+						Si vous avez push un commit et que vous souhaitez l'annuler, il faut effectuer le commit <b>inverse</b>. 
+						Cela s'appelle un <b>revert</b>
+					</p>
+					<pre class="fragment">
+						<code class="bash" data-trim>$ git revert id_du_commit</code>
+					</pre>
 				</section>
 
 				<section style="text-align:left">
